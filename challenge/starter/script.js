@@ -97,7 +97,7 @@ function getPasswordOptions() {
   var characNum = prompt('How many characters do you want your password to contain?');
   
   let passwordLength = characNum
-  if (characNum >= 16 && characNum <=65 ) {
+  if (characNum >= 10 && characNum <=64 ) {
     console.log(passwordLength);
   } else {
     alert('Value must be greater than 16 and less than 35')
@@ -127,7 +127,7 @@ const arr = allChar
 // Function to generate password with user input
 function generatePassword() {
   getPasswordOptions();
-  return getRandom(arr, 16);
+  return getRandom(arr, 10);
 }
 
 // Get references to the #generate element
