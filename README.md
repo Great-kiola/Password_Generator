@@ -49,4 +49,10 @@ that are shown.
 
 To deploy this project run
 
-click on the url ==> 
+click on the url ==>  (https://great-kiola.github.io/Password_Generator/)
+
+## Screenshots
+
+![App Screenshot](![image](https://user-images.githubusercontent.com/117322790/211606231-4b9c97e5-56f3-4c43-ba06-992c3c2eddad.png)
+
+
