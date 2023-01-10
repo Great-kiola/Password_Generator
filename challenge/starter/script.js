@@ -104,15 +104,10 @@ function getPasswordOptions() {
   }
 
 
-
-
-
-  
-
-  // var specialCharac = confirm('Click OK to include special characters');
-  // var numericCharac = confirm('Click OK to include numeric characters');
-  // var lowercaseCharac = confirm('Click OK to include lowercase characters');
-  // var uppercaseCharac= confirm('Click OK to include Uppercase characters');
+  var specialCharac = confirm('Click OK to include special characters');
+  var numericCharac = confirm('Click OK to include numeric characters');
+  var lowercaseCharac = confirm('Click OK to include lowercase characters');
+  var uppercaseCharac= confirm('Click OK to include Uppercase characters');
 
 }
   
@@ -132,7 +127,7 @@ const arr = allChar
 // Function to generate password with user input
 function generatePassword() {
   getPasswordOptions();
-  return getRandom(arr, 12);
+  return getRandom(arr, 16);
 }
 
 // Get references to the #generate element
