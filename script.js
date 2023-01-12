@@ -99,7 +99,7 @@ var selectedArr = [];
 function getPasswordOptions() {
   selectedArr = [];
 
-  passwordLength = parseInt(prompt('How many characters do you want your password to contain? between 10 - 34 characters'));
+  passwordLength = parseInt(prompt('How many characters do you want your password to contain? \n Between 10 - 34 characters'));
   if (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64 ) {
     alert ("Value must be greater than 16 and less than 35. Please try again");
     return false
