@@ -101,7 +101,7 @@ function getPasswordOptions() {
 
   passwordLength = parseInt(prompt('How many characters do you want your password to contain? \nInput between 10 - 64 characters'));
   if (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64 ) {
-    alert ("Value must be greater than 16 and less than 35. Please try again");
+    alert ("Value must be greater than 10 and less than 64. Please try again");
     return false
   }
   
